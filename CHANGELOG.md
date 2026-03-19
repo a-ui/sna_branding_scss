@@ -18,5 +18,5 @@
 - Initial release.
 
 
-[2.0.0]: https://github.com/a-ui/variant_branding_scss/tree/v2.0.0
-[1.0.0]: https://github.com/a-ui/variant_branding_scss/tree/v1.0.0
+[2.0.0]: https://github.com/a-ui/sna_branding_scss/tree/v2.0.0
+[1.0.0]: https://github.com/a-ui/sna_branding_scss/tree/v1.0.0
