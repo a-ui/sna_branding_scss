@@ -6,80 +6,112 @@
  * -------------------------------------------------------------------
  */
 
+$sna-blue-600: #3878C2;
+$sna-blue-700: #10509A;
+$sna-blue-800: #193150;
+$sna-blue-800-opacity-50: rgba($sna-blue-800, 0.5);
+
+$sna-red-100: #FBF4F5;
+$sna-red-300: #FA4960;
+$sna-red-400: #D6063C;
+$sna-red-500: #CA1C22;
+$sna-red-600: #B8002A;
+$sna-red-700: #A3002A;
+$sna-red-800: #6C0019;
+
+$sna-white: #FFFFFF;
+$sna-neutral-100: #F6F6F6;
+$sna-neutral-200: #E7E7E7;
+$sna-neutral-300: #D8D8D8;
+$sna-neutral-400: #B9B9B9;
+$sna-neutral-500: #919191;
+$sna-neutral-600: #868686;
+$sna-neutral-700: #696969;
+$sna-neutral-800: #4A4A4A;
+$sna-neutral-900: #2E2E2E;
+$sna-black: #242424;
+$sna-black-opacity-30: rgba($sna-black, 0.3);
+
+$sna-green-400: #DEF599;
+$sna-green-500: #C3D248;
+$sna-green-600: #808530;
+
+$sna-orange-500: #FCCA7A;
+
 :root {
 
   /* Brand colors */
 
-  // --brand-1: #{$endeavour-600};
-  // --brand-1-tint: #{$endeavour-700};
+  --brand-1: #{$sna-blue-600};
+  --brand-1-tint: #{$sna-blue-700};
   // --brand-1-contrast: #{$white};
   // --brand-1-alt: #{$white};
   // --brand-1-alt-tint: #{$endeavour-100};
-  // --brand-1-alt-contrast: #{$black};
+  --brand-1-alt-contrast: #{$sna-black};
 
-  // --brand-2: #{$monza-600};
-  // --brand-2-tint: #{$monza-700};
+  --brand-2: #{$sna-red-600};
+  --brand-2-tint: #{$sna-red-800};
   // --brand-2-contrast: #{$white};
   // --brand-2-alt: #{$white};
-  // --brand-2-alt-tint: #{$monza-100};
-  // --brand-2-alt-contrast: #{$black};
+  --brand-2-alt-tint: #{$sna-red-100};
+  --brand-2-alt-contrast: #{$sna-black};
 
-  // --brand-3: #{$endeavour-600};
-  // --brand-3-tint: #{$endeavour-700};
+  --brand-3: #{$sna-blue-600};
+  --brand-3-tint: #{$sna-blue-700};
   // --brand-3-contrast: #{$white};
   // --brand-3-alt: #{$white};
   // --brand-3-alt-tint: #{$endeavour-100};
-  // --brand-3-alt-contrast: #{$black};
+  --brand-3-alt-contrast: #{$sna-black};
 
 
 
   /* UI colors */
 
-  // --state-info: #{$endeavour-600};
-  // --state-info-tint: #{$endeavour-700};
+  --state-info: #{$sna-blue-600};
+  --state-info-tint: #{$sna-blue-700};
   // --state-info-contrast: #{$white};
   // --state-info-alt: #{$white};
   // --state-info-alt-tint: #{$endeavour-100};
-  // --state-info-alt-contrast: #{$black};
+  --state-info-alt-contrast: #{$sna-black};
 
   // --state-success: #{$mantis-700};
   // --state-success-tint: #{$mantis-800};
   // --state-success-contrast: #{$white};
   // --state-success-alt: #{$white};
   // --state-success-alt-tint: #{$mantis-100};
-  // --state-success-alt-contrast: #{$black};
+  --state-success-alt-contrast: #{$sna-black};
 
   // --state-warning: #{$burnt-orange-600};
   // --state-warning-tint: #{$burnt-orange-700};
   // --state-warning-contrast: #{$white};
   // --state-warning-alt: #{$white};
   // --state-warning-alt-tint: #{$burnt-orange-100};
-  // --state-warning-alt-contrast: #{$black};
+  --state-warning-alt-contrast: #{$sna-black};
 
-  // --state-danger: #{$cinnabar-700};
-  // --state-danger-tint: #{$cinnabar-800};
+  --state-danger: #{$sna-red-500};
+  --state-danger-tint: #{$sna-red-700};
   // --state-danger-contrast: #{$white};
   // --state-danger-alt: #{$white};
-  // --state-danger-alt-tint: #{$cinnabar-100};
-  // --state-danger-alt-contrast: #{$black};
+  --state-danger-alt-tint: #{$sna-red-100};
+  --state-danger-alt-contrast: #{$sna-black};
 
-  // --state-disabled: #{$neutral-100};
-  // --state-disabled-tint: #{$neutral-200};
-  // --state-disabled-contrast: #{$neutral-400};
+  --state-disabled: #{$sna-neutral-100};
+  --state-disabled-tint: #{$sna-neutral-200};
+  --state-disabled-contrast: #{$sna-neutral-400};
 
-  // --text-color: #{$black};
-  // --text-color-light: #{$neutral-400};
+  --text-color: #{$sna-neutral-900};
+  --text-color-light: #{$sna-neutral-700};
   // --text-color-inverted: #{$white};
 
-  // --bg-color: #{$neutral-100};
+  --bg-color: #{$sna-neutral-100};
   // --bg-color-light: #{$white};
-  // --bg-color-inverted: #{$neutral-500};
+  --bg-color-inverted: #{$sna-neutral-700};
 
-  // --border-color: #{$neutral-300};
-  // --border-color-light: #{$neutral-200};
+  --border-color: #{$sna-neutral-500};
+  --border-color-light: #{$sna-neutral-300};
 
-  // --overlay-color: #{rgba($black, .75)};
-  // --box-shadow-color: #{rgba($neutral-600, .12)};
+  --overlay-color: #{$sna-blue-800-opacity-50};
+  --box-shadow-color: #{$sna-black-opacity-30};
 
   // --link: var(--brand-1);
   // --link-tint: var(--brand-1-tint);
@@ -88,7 +120,7 @@
   // --link-alt-tint: var(--brand-1-alt-tint);
   // --link-alt-contrast: var(--brand-1-alt-contrast);
 
-  // --state-selected: #{color.mix($endeavour-600, $white, 20%)};
+  --state-selected: #{color.mix($sna-blue-600, $white, 20%)};
 
 
 
@@ -163,7 +195,7 @@
 
   /* Miscellaneous */
 
-  // --border-radius: 0;
+  --border-radius: 4px;
   // --border-width: 1px;
 
   // --animation-duration: 200ms;
@@ -179,7 +211,7 @@
   // --readable-content-width: 45rem;
 
 
-  
+
   /* Z-indexes */
 
   // --z-cellar: -1;
@@ -194,4 +226,36 @@
   // --z-statusbar: 8;
   // --z-header: 9;
   // --z-overlay: 10;
+}
+
+
+/**
+ * CUSTOM COMPONENTSTYLING
+ * -------------------------------------------------------------------
+ */
+
+/* Remove rounded corners on right side of avatar in avatar button */
+.a-button.has-avatar .a-avatar, .a-button.has-avatar-with-inset .a-avatar {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* Add spacing to flyout content */
+.m-flyout__content,
+.m-flyout--bottom-left .m-flyout__content,
+.m-flyout--bottom-right .m-flyout__content {
+  margin-top: var(--SPACER-3XS);
+}
+
+.m-flyout--bottom-right .m-flyout__content {
+  margin-top: var(--SPACER-3XS);
+}
+
+.m-flyout--upper-right .m-flyout__content,
+.m-flyout--upper-left .m-flyout__content {
+  margin-top: calc(var(--SPACER-3XS) * -1);
+}
+
+.m-flyout .a-input + .m-flyout__content {
+  margin-top: var(--SPACER-3XS);
 }
